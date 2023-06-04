@@ -80,9 +80,6 @@ class: bg-white flex place-items-center
 </h1>
 
 ---
-class: 
----
-
 
 <div class="w-full h-full flex justify-center items-center">
 
@@ -105,9 +102,12 @@ class:
 
 <v-click>
   <div class="abs-br mr-10">
-    <a href="https://en.wikipedia.org/wiki/Ryan_Dahl">
+    <div class="flex gap-4 flex-items-end">    
+      <a class="mb-2" href="https://en.wikipedia.org/wiki/Ryan_Dahl">
+        Ryan Dahl
+      </a>
       <img src="images/Ryan.png" />
-    </a>
+    </div>
   </div>
 </v-click>
 <!-- 
@@ -119,13 +119,38 @@ class:
 
 ---
 
- # Tópico 1 (continuação): O desafio de trazer o Node para o navegador
- - Explicar a motivação de Eric e Albert ao desenvolverem uma plataforma de ensino de programação e os problemas enfrentados pelos alunos na configuração do ambiente.
- - Destacar a ideia de trazer o Node para o navegador, tornando mais fácil para os desenvolvedores utilizarem as funcionalidades do Node no desenvolvimento web.
+<div class="w-full h-full flex justify-center items-center">
 
+<v-click>
+  <img src="images/node-logo.png" width="48" />
+</v-click>
+ 
+<v-click>
+
+      +  
+
+</v-click>
+
+<v-click>
+  <img src="images/old-chrome.png" width="56" />
+</v-click>
+
+<v-click>
+  <div class="abs-br m-16 text-6xl">
+    😢
+  </div>
+</v-click>
+
+</div>
+
+<!--
+ # Tópico 1 (continuação): O desafio de trazer o Node para o navegador
+ - Destacar a ideia de trazer o Node para o navegador, tornando mais fácil para os desenvolvedores utilizarem as funcionalidades do Node no desenvolvimento web.
+-->
 ---
 
 # Tópico 2: Superando obstáculos e expandindo funcionalidades
+ - Explicar a motivação de Eric e Albert ao desenvolverem uma plataforma de ensino de programação e os problemas enfrentados pelos alunos na configuração do ambiente.
  - Destacar as implementações necessárias para suportar o Node no navegador:
    - Sistema de arquivos
    - ES Modules
