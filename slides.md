@@ -40,7 +40,7 @@ css: unocss
 
 # Gabriel Daltoso
 
-Desenvolvedor UX/UI - StackBlitz 
+Desenvolvedor UX/UI - StackBlitz
 
 <a href="https://twitter.com/ggdaltoso">@ggdaltoso</a>
 
@@ -59,6 +59,8 @@ Desenvolvedor UX/UI - StackBlitz
     <carbon-logo-linkedin />
   </a>
 </div>
+---
+class: bg-white
 ---
 
 # What is Slidev?
