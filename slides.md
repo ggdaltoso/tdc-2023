@@ -1,6 +1,6 @@
 ---
 theme: default
-background: ./images/hero.png
+background: .//hero.png
 class: 'text-center'
 highlighter: shiki
 lineNumbers: false
@@ -31,7 +31,7 @@ como o StackBlitz transformou o desenvolvimento web com Node.js no navegador
 
 ---
 layout: image-right
-image: ./images/eu.jpg
+image: .//eu.jpg
 css: unocss
 ---
 
@@ -44,6 +44,11 @@ Desenvolvedor UX/UI - StackBlitz
 
 <a href="https://twitter.com/ggdaltoso">@ggdaltoso</a>
 
+<br />
+<br />
+<br />
+<br />
+<a href="https://tdc-2023.ggdaltoso.dev" class="text-3xl">tdc-2023.ggdaltoso.dev</a>
 
 <div class="abs-bl my-10 mx-12 flex gap-2">
   <a href="https://github.com/ggdaltoso" target="_blank" alt="GitHub"
@@ -85,7 +90,7 @@ class: bg-white flex place-items-center
 
 <v-click>
 
-![](images/internet.png)
+![](/internet.png)
 
 </v-click>
 
@@ -95,7 +100,7 @@ class: bg-white flex place-items-center
   
 </v-click>
 <v-click>
-  <img src="images/old-chrome.png" width="54"/>
+  <img src="/old-chrome.png" width="54"/>
 </v-click>
 
 </div>
@@ -106,7 +111,7 @@ class: bg-white flex place-items-center
       <a class="mb-2" href="https://en.wikipedia.org/wiki/Ryan_Dahl">
         Ryan Dahl
       </a>
-      <img src="images/Ryan.png" />
+      <img src="/Ryan.png" />
     </div>
   </div>
 </v-click>
@@ -122,7 +127,7 @@ class: bg-white flex place-items-center
 <div class="w-full h-full flex justify-center items-center">
 
 <v-click>
-  <img src="images/node-logo.png" width="48" />
+  <img src="/node-logo.png" width="48" />
 </v-click>
  
 <v-click>
@@ -132,7 +137,7 @@ class: bg-white flex place-items-center
 </v-click>
 
 <v-click>
-  <img src="images/old-chrome.png" width="56" />
+  <img src="/old-chrome.png" width="56" />
 </v-click>
 
 <v-click>
