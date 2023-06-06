@@ -65,19 +65,17 @@ Desenvolvedor UX/UI - StackBlitz
   </a>
 </div>
 
-
 ---
-class: bg-white color-blue flex place-items-center
+class: bg-white color-blue flex justify-center items-center
 ---
 
 <h1 class="flex-grow-1 text-center">
   Node + StackBlitz = WebContainer
 </h1>
 
-
 ---
 layout: 
-class: bg-white flex place-items-center
+class: bg-white flex justify-center items-center
 ---
 
 <h1 class="flex-grow-1 text-center">
@@ -152,9 +150,56 @@ class: bg-white flex place-items-center
  # Tópico 1 (continuação): O desafio de trazer o Node para o navegador
  - Destacar a ideia de trazer o Node para o navegador, tornando mais fácil para os desenvolvedores utilizarem as funcionalidades do Node no desenvolvimento web.
 -->
+
+---
+class: bg-white color-blue flex justify-center items-center
 ---
 
-# Tópico 2: Superando obstáculos e expandindo funcionalidades
+<h1 class="flex-grow-1 text-center">
+  Node + StackBlitz = WebContainer
+</h1>
+
+---
+layout: 
+class: bg-white flex justify-center items-center
+---
+
+<h1 class="flex-grow-1 text-center">
+  Node + <span class="color-blue">StackBlitz</span> = WebContainer
+</h1>
+
+---
+class: bg-white flex flex-col justify-center items-center color-dark
+---
+
+<v-click>
+
+  <div class="flex gap-6">
+
+  ![](/eric.png)
+
+  ![](/pai.png)
+
+  </div>
+
+</v-click>
+
+<v-click>
+
+  <div class="flex gap-6 justify-center items-center">
+    <a href="https://twitter.com/ericsimons40">Eric Simons</a>
+    <a class="ml-4" href="https://twitter.com/iamalbertpai">Albert Pai</a>
+  </div>
+
+</v-click>
+
+<v-click>
+  <span class="fixed top-46 left-110 text-2xl"> 💢 </span>
+  <span class="fixed top-50 left-128 text-2xl"> 💢 </span>
+</v-click>
+
+<!-- 
+ # Tópico 2: Superando obstáculos e expandindo funcionalidades
  - Explicar a motivação de Eric e Albert ao desenvolverem uma plataforma de ensino de programação e os problemas enfrentados pelos alunos na configuração do ambiente.
  - Destacar as implementações necessárias para suportar o Node no navegador:
    - Sistema de arquivos
@@ -162,6 +207,7 @@ class: bg-white flex place-items-center
    - Event loop e serialização
    - Introdução do Turbo como gerenciador de pacotes
    - Possibilidade de executar comandos de terminal
+-->
 
 ---
 
