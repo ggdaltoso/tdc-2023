@@ -1,13 +1,4 @@
-# Welcome to [Slidev](https://github.com/slidevjs/slidev)!
+# WebContainers <br />  como o StackBlitz transformou o desenvolvimento web com Node.js no navegador
 
-[Edit on StackBlitz ⚡️](https://sli.dev/new)
 
-To start the slide show:
-
-- `npm install`
-- `npm run dev`
-- visit http://localhost:3030
-
-Edit the [slides.md](./slides.md) to see the changes.
-
-Learn more about Slidev on [documentations](https://sli.dev/).
+[![Open in Codeflow](https://developer.stackblitz.com/img/open_in_codeflow_small.svg)](https://stackblitz.com/~/github.com/ggdaltoso/tdc-2023)
