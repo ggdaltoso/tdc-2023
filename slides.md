@@ -88,7 +88,7 @@ class: bg-white flex justify-center items-center
 
 <v-click>
 
-![](/internet.png)
+![](/5/internet.png)
 
 </v-click>
 
@@ -98,7 +98,7 @@ class: bg-white flex justify-center items-center
   
 </v-click>
 <v-click>
-  <img src="/old-chrome.png" width="54"/>
+  <img src="/5/old-chrome.png" width="54"/>
 </v-click>
 
 </div>
@@ -109,12 +109,12 @@ class: bg-white flex justify-center items-center
       <a class="mb-2" href="https://en.wikipedia.org/wiki/Ryan_Dahl">
         Ryan Dahl
       </a>
-      <img src="/Ryan.png" />
+      <img src="/5/Ryan.png" />
     </div>
   </div>
 </v-click>
 <!-- 
-# Tópico 1: O JavaScript além do navegador
+ Tópico 1: O JavaScript além do navegador
  - Breve introdução sobre o JavaScript, sua origem e função principal no navegador.
 - Mencionar o lançamento do Chrome em 2008 e o uso do motor V8 para compilar JavaScript em código de máquina.
  - Destacar Ryan Dahl, que pegou o V8 e criou o NodeJS, permitindo que o JavaScript fosse executado fora do navegador.
@@ -125,7 +125,7 @@ class: bg-white flex justify-center items-center
 <div class="w-full h-full flex justify-center items-center">
 
 <v-click>
-  <img src="/node-logo.png" width="48" />
+  <img src="/6/node-logo.png" width="48" />
 </v-click>
  
 <v-click>
@@ -135,7 +135,7 @@ class: bg-white flex justify-center items-center
 </v-click>
 
 <v-click>
-  <img src="/old-chrome.png" width="56" />
+  <img src="/6/old-chrome.png" width="56" />
 </v-click>
 
 <v-click>
@@ -147,7 +147,7 @@ class: bg-white flex justify-center items-center
 </div>
 
 <!--
- # Tópico 1 (continuação): O desafio de trazer o Node para o navegador
+ Tópico 1 (continuação): O desafio de trazer o Node para o navegador
  - Destacar a ideia de trazer o Node para o navegador, tornando mais fácil para os desenvolvedores utilizarem as funcionalidades do Node no desenvolvimento web.
 -->
 
@@ -176,9 +176,9 @@ class: bg-white flex flex-col justify-center items-center color-dark
 
   <div class="flex gap-6">
 
-  ![](/eric.png)
+  ![](/9/eric.png)
 
-  ![](/pai.png)
+  ![](/9/pai.png)
 
   </div>
 
@@ -199,23 +199,72 @@ class: bg-white flex flex-col justify-center items-center color-dark
 </v-click>
 
 <!-- 
- # Tópico 2: Superando obstáculos e expandindo funcionalidades
+ Tópico 2: Superando obstáculos e expandindo funcionalidades
  - Explicar a motivação de Eric e Albert ao desenvolverem uma plataforma de ensino de programação e os problemas enfrentados pelos alunos na configuração do ambiente.
- - Destacar as implementações necessárias para suportar o Node no navegador:
+ -->
+---
+class: bg-white grid grid-cols-3 p-20 place-items-center color-dark gap-6
+---
+
+<v-click>
+  <div class="flex flex-col justify-center items-center">
+    <img src="/10/file-system.png" />
+    <span class="font-mono text-4">File system</span>
+  </div>
+  <div class="flex flex-col justify-center items-center">
+    <img src="/10/event-loop.png" />
+    <span class="font-mono text-4">Event Loop</span>
+  </div>
+  <div class="flex flex-col justify-center items-center">
+    <img src="/10/serialization.png" />
+    <span class="font-mono text-4">Serialization</span>
+  </div>
+  <div class="flex flex-col justify-center items-center">
+    <img src="/10/package-manager.png" />
+    <span class="font-mono text-4">Pacakge manager</span>
+  </div>
+  <div class="flex flex-col justify-center items-center">
+    <img src="/10/git.png" />
+    <span class="font-mono text-4">git</span>
+  </div>
+  <div class="flex flex-col justify-center items-center">
+    <img src="/10/terminal.png" />
+    <span class="font-mono text-4">Terminal</span>
+  </div>
+</v-click>
+
+<v-click>
+  <span class="fixed top-43 left-66 text-2xl"> ✅ </span>
+  <span class="fixed top-43 left-135 text-2xl"> ✅ </span>
+  <span class="fixed top-43 left-209 text-2xl"> ✅ </span>
+  <span class="fixed top-95 left-70 text-2xl"> ✅ </span>
+  <span class="fixed top-95 left-126 text-2xl"> ✅ </span>
+  <span class="fixed top-95 left-202 text-2xl"> ✅ </span>
+</v-click>
+
+<!-- 
+ Tópico 2 (continuação): Os desafios encontrados
+ Destacar as implementações necessárias para suportar o Node no navegador:
    - Sistema de arquivos
    - ES Modules
    - Event loop e serialização
    - Introdução do Turbo como gerenciador de pacotes
    - Possibilidade de executar comandos de terminal
+ - Destacar a falta de suporte e limitações das ferramentas existentes, principalmente dos navegadores.
+ - Mencionar a contribuição da equipe na identificação e resolução de bugs, como problemas de memória no V8 e WebAssembly, questões de threads no Firefox e no ARM M1.
 -->
 
 ---
+layout: 
+class: bg-white flex justify-center items-center
+---
 
-# Tópico 2 (continuação): Os desafios encontrados
- - Destacar a falta de suporte e limitações das ferramentas existentes, principalmente dos navegadores.
- - Mencionar a contribuição da equipe na identificação e resolução de bugs, como problemas de memória no V8 e WebAssembly, questões de threads no Firefox e no ARM M1.
+<h1 class="flex-grow-1 text-center">
+  Node + StackBlitz = <span class="color-blue">WebContainer</span>
+</h1>
 
 ---
+
 # Tópico 3: StackBlitz - Facilitando o desenvolvimento web
  - Introduzir o StackBlitz como uma interface de desenvolvimento online capaz de rodar aplicações NodeJS no navegador.
  - Destacar a inspiração do NodeJS para a criação do StackBlitz, visando facilitar o processo de configuração do ambiente de desenvolvimento e permitir que os desenvolvedores se concentrem nas suas ideias.
