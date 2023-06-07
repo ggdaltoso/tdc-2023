@@ -255,7 +255,6 @@ class: bg-white grid grid-cols-3 p-20 place-items-center color-dark gap-6
 -->
 
 ---
-layout: 
 class: bg-white flex justify-center items-center
 ---
 
@@ -264,11 +263,16 @@ class: bg-white flex justify-center items-center
 </h1>
 
 ---
+class: bg-white flex justify-center items-center
+---
 
-# Tópico 3: StackBlitz - Facilitando o desenvolvimento web
+ <img src="/12/browser.png" width="600" />
+
+<!--
+ Tópico 3: StackBlitz - Facilitando o desenvolvimento web
  - Introduzir o StackBlitz como uma interface de desenvolvimento online capaz de rodar aplicações NodeJS no navegador.
  - Destacar a inspiração do NodeJS para a criação do StackBlitz, visando facilitar o processo de configuração do ambiente de desenvolvimento e permitir que os desenvolvedores se concentrem nas suas ideias.
-
+-->
 ---
 
 # Tópico 4: WebContainer - Uma nova abordagem
