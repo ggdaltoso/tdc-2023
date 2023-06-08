@@ -1,6 +1,6 @@
 ---
 theme: default
-background: .//hero.png
+background: hero.png
 class: 'text-center'
 highlighter: shiki
 lineNumbers: false
@@ -10,6 +10,8 @@ info: |
 drawings:
   persist: false
 css: unocss
+title: 
+  "WebContainer: como o StackBlitz transformou o desenvolvimento web com Node.js no navegador"
 ---
 
 <br />
@@ -31,8 +33,9 @@ como o StackBlitz transformou o desenvolvimento web com Node.js no navegador
 
 ---
 layout: image-right
-image: .//eu.jpg
+image: eu.jpg
 css: unocss
+title: Gabriel Daltoso - @ggdaltoso
 ---
 
 <br />
@@ -74,7 +77,6 @@ class: bg-white color-blue flex justify-center items-center
 </h1>
 
 ---
-layout: 
 class: bg-white flex justify-center items-center
 ---
 
@@ -160,7 +162,6 @@ class: bg-white color-blue flex justify-center items-center
 </h1>
 
 ---
-layout: 
 class: bg-white flex justify-center items-center
 ---
 
@@ -266,7 +267,42 @@ class: bg-white flex justify-center items-center
 class: bg-white flex justify-center items-center
 ---
 
- <img src="/12/browser.png" width="600" />
+  <img src="/12/browser.png" width="600" />
+
+  <v-click>
+    <img src="/12/msdos.png" class="abs-br m-30 mr-64" /> 
+  </v-click>
+
+  <v-click>
+    <div class="abs-tl mt-48 ml-66 text-2">
+      <ol>
+        <li>████████████████████████████</li>
+        <li>████████████████</li>
+        <li>████████████████████████████</li>
+        <li>█████████████████████</li>
+        <li>████████████████████████████████</li>
+        <li>██████████████████</li>
+        <li>███████████████████████</li>
+        <li>█████████████</li>
+        <li>████████████████████████████</li>
+        <li>████████████</li>
+        <li>█████████████████████████</li>
+        <li>██████████████</li>
+        <li>██████████</li>
+        <li>███████</li>
+      </ol>
+    </div>  
+  </v-click>
+
+  <v-click>
+    <Arrow class="color-red" x1="450" y1="400" x2="640" y2="416" />
+  </v-click>
+
+  <v-click>
+    <Arrow class="color-red" x1="680" y1="380" x2="660" y2="336" />
+    <span class="abs-tr mt-56 mr-72 text-8xl" >✨</span>
+  </v-click>
+  
 
 <!--
  Tópico 3: StackBlitz - Facilitando o desenvolvimento web
