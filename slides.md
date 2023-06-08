@@ -15,22 +15,21 @@ title:
 titleTemplate: '%s - Gabriel Daltoso (@ggdaltoso)'
 ---
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
+<br >
+<br >
+<br >
+<br >
+<br >
+<br >
+<br >
+<br >
+<br >
+<br >
+<br >
 
 # WebContainer
 
 como o StackBlitz transformou o desenvolvimento web com Node.js no navegador
-
 
 ---
 layout: image-right
@@ -38,31 +37,27 @@ image: eu.jpg
 title: "Gabriel Daltoso - @ggdaltoso"
 ---
 
-<br />
-<br />
+<br >
+<br >
 
 # Gabriel Daltoso
 
 Desenvolvedor UX/UI - StackBlitz
 
-<a href="https://twitter.com/ggdaltoso">@ggdaltoso</a>
+<a target="_blank" alt="Perfil no Twitter de Gabriel Daltoso" href="https://twitter.com/ggdaltoso">@ggdaltoso</a>
 
-<br />
-<br />
-<br />
-<br />
-<a href="https://tdc-2023.ggdaltoso.dev" class="text-3xl">tdc-2023.ggdaltoso.dev</a>
+<a target="_blank" alt="Link para a apresentação" href="https://tdc-2023.ggdaltoso.dev" class="text-3xl mt-26 inline-block">tdc-2023.ggdaltoso.dev</a>
 
 <div class="abs-bl my-10 mx-12 flex gap-2">
-  <a href="https://github.com/ggdaltoso" target="_blank" alt="GitHub"
+  <a href="https://github.com/ggdaltoso" target="_blank" alt="Perfil no Github de Gabriel Daltoso"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github />
   </a>
-  <a href="https://twitter.com/ggdaltoso" target="_blank" alt="Twitter"
+  <a href="https://twitter.com/ggdaltoso" target="_blank" alt="Perfil no Twitter de Gabriel Daltoso"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-twitter />
   </a>
-  <a href="https://linkedin.com/in/ggdaltoso" target="_blank" alt="LinkedIn"
+  <a href="https://linkedin.com/in/ggdaltoso" target="_blank" alt="Perfil no LinkedIn de Gabriel Daltoso"
     class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-linkedin />
   </a>
@@ -108,7 +103,7 @@ class: bg-white flex justify-center items-center
 <v-click>
   <div class="abs-br mr-10">
     <div class="flex gap-4 flex-items-end">    
-      <a class="mb-2" href="https://en.wikipedia.org/wiki/Ryan_Dahl">
+      <a class="mb-2" target="_blank" href="https://en.wikipedia.org/wiki/Ryan_Dahl">
         Ryan Dahl
       </a>
       <img src="/5/Ryan.png" />
@@ -177,9 +172,9 @@ class: bg-white flex flex-col justify-center items-center color-dark
 
   <div class="flex gap-6">
 
-  ![](/9/eric.png)
+  ![Eric Simons](/9/eric.png)
 
-  ![](/9/pai.png)
+  ![Albert Pai](/9/pai.png)
 
   </div>
 
@@ -188,8 +183,8 @@ class: bg-white flex flex-col justify-center items-center color-dark
 <v-click>
 
   <div class="flex gap-6 justify-center items-center">
-    <a href="https://twitter.com/ericsimons40">Eric Simons</a>
-    <a class="ml-4" href="https://twitter.com/iamalbertpai">Albert Pai</a>
+    <a target="_blank" href="https://twitter.com/ericsimons40">Eric Simons</a>
+    <a target="_blank" class="ml-4" href="https://twitter.com/iamalbertpai">Albert Pai</a>
   </div>
 
 </v-click>
@@ -241,7 +236,7 @@ class: bg-white grid grid-cols-3 p-20 place-items-center color-dark gap-6
   <span class="fixed top-95 left-70 text-2xl"> ✅ </span>
   <span class="fixed top-95 left-126 text-2xl"> ✅ </span>
   <span class="fixed top-95 left-202 text-2xl"> ✅ </span>
-  <a class="color-dark fixed bottom-12 left-105" href="https://blog.stackblitz.com/">blog.stackblitz.com</a>
+  <a target="_blank" class="color-dark fixed bottom-12 left-105" href="https://blog.stackblitz.com/">blog.stackblitz.com</a>
 </v-click>
 
 
@@ -306,7 +301,7 @@ class: bg-white flex justify-center items-center
   </v-click>
   
   <v-click>
-  <a class="color-dark fixed bottom-8 left-108" href="https://webcontainers.io/">webcontainers.io</a>
+  <a target="_blank" class="color-dark fixed bottom-8 left-108" href="https://webcontainers.io/">webcontainers.io</a>
   </v-click>
 
 <!--
@@ -315,6 +310,14 @@ class: bg-white flex justify-center items-center
  - Destacar a inspiração do NodeJS para a criação do StackBlitz, visando facilitar o processo de configuração do ambiente de desenvolvimento e permitir que os desenvolvedores se concentrem nas suas ideias.
 -->
 ---
+layout: two-cols
+---
+
+<Tweet id="1647708875834138625" scale="0.6" />
+
+::right::
+
+<iframe class="w-full h-118 m-auto" src="https://typescript-lzex4b.stackblitz.io/" />
 
 <!-- 
  Tópico 4: WebContainer - Uma nova abordagem
@@ -329,7 +332,30 @@ class: bg-white flex justify-center items-center
 -->
 
 ---
+preload: false
+---
 
+<iframe class="w-full h-118 m-auto" src="https://nodejs.dev/en/learn/" />
+
+---
+preload: false
+layout: two-cols
+---
+
+<iframe class="w-full h-118 m-auto" src="https://learn.svelte.dev/tutorial/introducing-sveltekit" />
+
+::right::
+
+<iframe class="w-full h-118 m-auto" src="https://www.sveltelab.dev/" />
+
+---
+preload: false
+class: p-0
+---
+
+<iframe class="w-full h-full m-auto" src="https://chat-ui-builder.vercel.app/" />
+
+---
 <!-- 
  Conclusão
  - Relembrar a evolução do JavaScript, do seu uso no navegador até a sua aplicação no desenvolvimento web com o NodeJS, o StackBlitz e o WebContainer.
