@@ -3,8 +3,10 @@ theme: default
 background: hero.png
 class: 'text-center'
 info: |
-  ## TDC 2023
-  Apresentação sobre StackBlitz, Node e WebContainers
+  # WebContainer
+  como o StackBlitz transformou o desenvolvimento web com Node.js no navegador
+
+  Apresentação no TDC 2023 sobre Node, StackBlitz e WebContainer
 drawings:
   persist: false
 css: unocss
@@ -25,7 +27,7 @@ titleTemplate: '%s - Gabriel Daltoso (@ggdaltoso)'
 <br />
 <br />
 
-# WebContainers
+# WebContainer
 
 como o StackBlitz transformou o desenvolvimento web com Node.js no navegador
 
