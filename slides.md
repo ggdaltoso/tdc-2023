@@ -239,7 +239,9 @@ class: bg-white grid grid-cols-3 p-20 place-items-center color-dark gap-6
   <span class="fixed top-95 left-70 text-2xl"> ✅ </span>
   <span class="fixed top-95 left-126 text-2xl"> ✅ </span>
   <span class="fixed top-95 left-202 text-2xl"> ✅ </span>
+  <a class="color-dark fixed bottom-12 left-105" href="https://blog.stackblitz.com/">blog.stackblitz.com</a>
 </v-click>
+
 
 <!-- 
  Tópico 2 (continuação): Os desafios encontrados
@@ -301,7 +303,9 @@ class: bg-white flex justify-center items-center
     <span class="abs-tr mt-56 mr-72 text-8xl" >✨</span>
   </v-click>
   
+  <v-click>
   <a class="color-dark fixed bottom-8 left-108" href="https://webcontainers.io/">webcontainers.io</a>
+  </v-click>
 
 <!--
  Tópico 3: StackBlitz - Facilitando o desenvolvimento web
