@@ -2,8 +2,6 @@
 theme: default
 background: hero.png
 class: 'text-center'
-highlighter: shiki
-lineNumbers: false
 info: |
   ## TDC 2023
   Apresentação sobre StackBlitz, Node e WebContainers
@@ -312,7 +310,8 @@ class: bg-white flex justify-center items-center
 -->
 ---
 
-# Tópico 4: WebContainer - Uma nova abordagem
+<!-- 
+ Tópico 4: WebContainer - Uma nova abordagem
  - Apresentar o WebContainer como uma tecnologia do StackBlitz que permite executar aplicações NodeJS diretamente no navegador.
  - Explicar que o WebContainer segue a API do NodeJS, permitindo que os desenvolvedores utilizem as ferramentas que já conhecem e se sintam em casa.
  - Destacar exemplos de sucesso que utilizam WebContainers:
@@ -321,16 +320,19 @@ class: bg-white flex justify-center items-center
    - Documentação: no próprio site do NodeJS, em "Introduction to Node.js (nodejs.dev)"
    - Tutoriais: como no caso do SveltKit, disponível em "Introduction / What is SvelteKit? • Svelte Tutorial"
    - Inteligência Artificial: utilize inteligência artificial e WebContainers para gerar um projeto, disponível em "Chat UI Builder (chat-ui-builder.vercel.app)"
+-->
 
 ---
 
-# Conclusão
+<!-- 
+ Conclusão
  - Relembrar a evolução do JavaScript, do seu uso no navegador até a sua aplicação no desenvolvimento web com o NodeJS, o StackBlitz e o WebContainer.
  - Destacar a importância dessas ferramentas na facilitação e agilidade do desenvolvimento web.
  - Convidar a audiência a explorar essas tecnologias e aproveitar os exemplos de sucesso que utilizam WebContainers.
 
----
 Agradecimentos e Encerramento
-- Agradecer a audiência pela atenção e participação.
-- Encerrar a apresentação de forma descontraída e agradável.
+ - Agradecer a audiência pela atenção e participação.
+ - Encerrar a apresentação de forma descontraída e agradável.
+-->
+---
 
