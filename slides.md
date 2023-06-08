@@ -303,6 +303,7 @@ class: bg-white flex justify-center items-center
     <span class="abs-tr mt-56 mr-72 text-8xl" >✨</span>
   </v-click>
   
+  <a class="color-dark fixed bottom-8 left-108" href="https://webcontainers.io/">webcontainers.io</a>
 
 <!--
  Tópico 3: StackBlitz - Facilitando o desenvolvimento web
