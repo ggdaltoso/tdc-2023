@@ -12,6 +12,7 @@ drawings:
 css: unocss
 title: 
   "WebContainer: como o StackBlitz transformou o desenvolvimento web com Node.js no navegador"
+titleTemplate: '%s - Gabriel Daltoso (@ggdaltoso)'
 ---
 
 <br />
@@ -34,8 +35,7 @@ como o StackBlitz transformou o desenvolvimento web com Node.js no navegador
 ---
 layout: image-right
 image: eu.jpg
-css: unocss
-title: Gabriel Daltoso - @ggdaltoso
+title: "Gabriel Daltoso - @ggdaltoso"
 ---
 
 <br />
