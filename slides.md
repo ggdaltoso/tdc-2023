@@ -340,13 +340,18 @@ preload: false
 ---
 preload: false
 layout: two-cols
+class: flex justify-center items-center
 ---
 
-<iframe class="w-full h-118 m-auto" src="https://learn.svelte.dev/tutorial/introducing-sveltekit" />
+<a target="_blank" href="https://learn.svelte.dev/tutorial/introducing-sveltekit">
+  https://learn.svelte.dev
+</a>
 
 ::right::
 
-<iframe class="w-full h-118 m-auto" src="https://www.sveltelab.dev/" />
+<a target="_blank" href="https://www.sveltelab.dev/">
+  https://www.sveltelab.dev
+</a>
 
 ---
 preload: false
@@ -356,6 +361,8 @@ class: p-0
 <iframe class="w-full h-full m-auto" src="https://chat-ui-builder.vercel.app/" />
 
 ---
+
+
 <!-- 
  Conclusão
  - Relembrar a evolução do JavaScript, do seu uso no navegador até a sua aplicação no desenvolvimento web com o NodeJS, o StackBlitz e o WebContainer.
