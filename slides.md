@@ -361,7 +361,29 @@ class: p-0
 <iframe class="w-full h-full m-auto" src="https://chat-ui-builder.vercel.app/" />
 
 ---
+class: flex justify-center items-center
+---
 
+<a target="_blank" class="b-none transition-300" href="https://www.gbstudio.dev/" >
+  
+  <img src="17/gb-studio.png" alt="GB Studio logo" width="64"/> 
+
+</a>
+
+<style>
+  a {
+    border-bottom-width: 0;
+  }
+  a:hover {
+    transform: scale(1.2);
+  }
+</style>
+
+<!-- 
+ Mostrar um caso de uso meu com GBStudio
+-->
+
+---
 
 <!-- 
  Conclusão
