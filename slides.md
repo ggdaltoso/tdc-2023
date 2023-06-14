@@ -372,7 +372,7 @@ class: flex justify-center items-center
 
 <style>
   a {
-    border-bottom-width: 0;
+    border-bottom-width: 0 !important;
   }
   a:hover {
     transform: scale(1.2);
