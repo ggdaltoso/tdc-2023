@@ -217,7 +217,7 @@ class: bg-white grid grid-cols-3 p-20 place-items-center color-dark gap-6
   </div>
   <div class="flex flex-col justify-center items-center">
     <img src="/10/package-manager.png" />
-    <span class="font-mono text-4">Pacakge manager</span>
+    <span class="font-mono text-4">Package manager</span>
   </div>
   <div class="flex flex-col justify-center items-center">
     <img src="/10/git.png" />
